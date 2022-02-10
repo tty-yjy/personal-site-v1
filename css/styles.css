@@ -1,0 +1,169 @@
+/* Tag Selectors */
+a {
+  color: #11999E;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Tangerine', cursive;
+  font-size: 7rem;
+  line-height: 1.25;
+  margin: 25px auto 0;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  color: #EAF6F6;
+  margin: 100px auto;
+  min-width: 150px;
+  width: 20%;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+/* Class Selectors */
+
+.airship {
+  bottom: 200px;
+  left: 25%;
+  position: absolute;
+}
+
+.cloud-left {
+  left: 20%;
+  position: absolute;
+  top: 25px;
+}
+
+.cloud-right {
+  position: absolute;
+  right: 18%;
+  top: 100px;
+}
+
+.code-img {
+  float: left;
+  margin-right: 30px;
+  max-width: 185px;
+  min-width: 115px;
+  width: 25%;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 60%;
+}
+
+.container-bottom {
+  background-color: #66BFBF;
+  padding: 40px;
+}
+
+.container-middle {
+  padding: 50px;
+}
+
+.container-top {
+  background-color: #eaf6f6;
+  padding-top: 160px;
+  position: relative;
+}
+
+.cook-img {
+  float: right;
+  margin-left: 30px;
+  max-width: 185px;
+  min-width: 115px;
+  width: 25%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  margin: auto 20px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.footer-text {
+  color: #EAF6F6;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #11999e 5%, #66bfbf 100%);
+	background-color:#11999e;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+	padding:9px 13px;
+	text-decoration:none;
+	text-shadow: 1px #2f6627;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #66bfbf 5%, #11999e 100%);
+	background-color:#66bfbf;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile {
+  margin: auto;
+  width: 66%;
+}
+
+.skill-row {
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+}
+/* ID Selectors */
+
+#heading-subtitle {
+  font-weight: normal;
+  margin: auto;
+}
